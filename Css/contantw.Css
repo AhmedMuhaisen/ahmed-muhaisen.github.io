@@ -1,0 +1,68 @@
+.contant{
+position: relative;
+width: 100%;
+
+
+}
+.total-Contact{
+    height: 790px;
+}
+.part-Contact,.part-Contact1{
+    width: 20%;
+    float: left;
+   
+    text-align: center;
+
+}.part-Contact{
+    margin-left: 200px;
+}
+.part-Contact1{
+    margin:auto;
+}
+.part-Contact .text1{
+    font-size: 22px;
+}.part-Contact .text2{
+    font-size: 20px;
+}.input1-c,.input1-c1,.text-area{
+
+font-size: 20px;
+padding-left: 10px;
+border: none;
+    border-bottom: 2px solid #eee;
+margin-left:10px ;
+background-color: rgba(202, 202, 202, 0.15);
+}.total-input{
+    width: 80%;
+    margin: 50px 50px 20px 100px;
+    margin-top: 300px;
+  
+}
+.input1-c{
+    float: left;
+    width: 390px;
+    height: 45px;
+}
+.input1-c1{
+    height: 45px;
+    margin: 20px 10px;
+    width: 790px;
+}
+.text-area{
+    padding-top: 20px;
+width: 790px;
+margin:auto 10px 20px 10px;
+height: 130px;
+
+}.butoon-Contact{
+width: 200px;
+height: 50px;
+margin: auto;
+background-color: #6195ff;
+border: none;
+border-radius: 5px;
+top: 50%;
+left: 90%;
+transform: translate(200% ,-10%);
+color: white;
+font-size:17px ;
+}

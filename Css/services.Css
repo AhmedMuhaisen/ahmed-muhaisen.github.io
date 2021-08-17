@@ -1,0 +1,60 @@
+.services .part{
+    /* display: block; */
+     position: relative; 
+    float: left;
+   width:  30%;
+   height: 33%;
+   margin: 16.9px;
+    text-align: left; 
+    padding-left: 30px;
+   padding-top: 20px;
+   border-radius: 0px;
+   border: 1px solid #e8e8e8;
+
+   padding-right: 30px;
+   
+}
+.services{
+    padding-bottom: 200px; 
+    height: 130%; 
+}
+.part .background-image{
+     opacity: 0;
+    visibility: hidden; 
+  
+    background-color: black;
+    z-index: -1;
+    transition: 0.8s;
+    width: 0;
+ right: 0;
+    padding: 0;
+    margin: 0;
+}
+.services .icon{
+font-size: 27px;
+width: 15%;
+float: left;
+height: 50%;
+top: 0;
+; padding-top:14px;
+
+
+}
+.services .text-part{  
+    width: 85%;
+    float: left;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    
+}
+
+.part:hover .background-image{
+    position: absolute;
+    opacity: 1;
+    visibility: visible;
+   
+    width: 100%;
+}
+.part:hover .text-part .text1{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,109 @@
+/*
+1-Comment
+2-
+*conteiner          <<وهي المربع الذي توضع به الصفحة>>
+* 1-opacty hover    <<وهي تغير لون الزر عند وضع الماوس عليه>>
+* 2-section heder   <<تنصيق العناويين الموجودة أعلى كل مقطع>>
+* 3-section padding <<وهي المسافة الفاصلة بين كل مقطع والآخر>>
+* 4-hover effect 1 (lift to rite)    <<الظل من اليمين لليسار>>
+* 5-hover effect 2 (top to botton)    <<الظل من الاعلى للأسفل>>
+ Css في back ground img لو لقيت كلام او محتوى على صورة فإن الصورة موضوعة   
+  html لو وضعنا الصورة في ال
+    تستطيع ان تحفظ الصورة 
+ Css أما لو وضعنا الصورة في ال 
+فإننا لا نستطيع عمل حفظ للصورة 
+
+*/
+
+.Header{
+    background-color: rgba(0, 0, 0 , 0.2);
+position: fixed;
+width: 100%;
+z-index: 10;
+}
+.Header .logo{
+    width: 40%;
+
+float:left ;
+
+}
+.Header .logo img {
+   width: 25%;
+padding-top: 8px;
+}
+.nav {
+    width: 60%;
+    float:left ;
+    list-style: none; /* لازالة النقاط  */
+text-align: right;
+}
+.Header .nav li , .main-drop li {
+display: inline-block; /* لجعل الاسطر بجانب بعضها  */
+
+}
+.Header .nav >li> a{
+    display: block;
+    padding: 23px 12px;
+ /* text-decoration: none;لإزالة خطوط الروابط */
+    color:aliceblue;
+}
+.clear{
+clear:both;
+}
+/* .hedercontant{
+overflow: hidden;
+
+
+} */
+
+.main-drop{
+    /* لازالة النقاط  */
+ position: absolute;
+ opacity: 0;
+ visibility: hidden;
+ top: 70%;
+ background-color: cornflowerblue;
+ 
+ text-align: center;
+ 
+ right: 160px;
+/* 
+ position: absolute;
+    background-color: var(--colorMain);
+    width: 150px;
+    text-align: center;
+    left: -50%;
+    top: 70%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s */
+}
+.drop:hover .main-drop {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.main-drop li a{
+ /* text-decoration: none;لإزالة خطوط الروابط */
+    color:rgb(255, 255, 255);
+    width: 150px;
+    display: block;   
+    padding: 10px;
+}
+.Header .nav li a.actvty:after ,.Header .nav li a:after{
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: cornflowerblue;
+    transition:width 0.5s; 
+}
+.Header .nav li a.actvty:after{
+    width: 100%;
+    }
+.Header .nav li a:after{
+    width: 0;
+    }  
+    .nav li a:hover:after{
+        width: 100%;
+        }

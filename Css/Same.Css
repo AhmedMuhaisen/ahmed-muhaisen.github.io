@@ -1,0 +1,92 @@
+/* Header */
+a{
+    text-decoration: none;
+}
+body ,a {
+    font-family: 'Crimson Pro', serif;
+    font-size: 17px;
+  }
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+.fa{
+    color:rgb(39, 125, 224);
+    font-size: 35px; 
+    padding-top:25px;
+    }
+.conteiner{
+width: 80%;
+margin:auto;
+}
+
+/* Home */
+h1, h2, h3, h4, h5, h6 {
+    font-family: montserrat, sans-serif;
+}
+
+.coler-Background{
+position: absolute;/*لملئ ال home*/
+width: 100%;
+height: 100%;
+left: 0;
+right: 0;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+.haver-opasty:hover{
+    opacity: 0.8;
+}
+.haver-opasty{
+    transition:opasty 0.5s;
+}
+
+
+.btn {
+
+    min-width: 160px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* About */
+.Section{
+    text-align: center;
+}
+.padding-y{
+    padding: 60px 0 ;
+}
+.text2{
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color:gray;
+
+}.text1{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0.8em;
+    margin-block-end: 1em;
+
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: color 0.5s;
+
+}
+ .titel{
+   margin-bottom: 10px;
+font-size: 32;
+text-transform: capitalize;
+text-align: center;
+font-weight:bold;
+ }
+ .line{
+    display: block;
+    height: 3px;
+    width: 4%;
+    background-color: cornflowerblue;
+    margin:0  auto 80px auto;
+ }

@@ -1,0 +1,141 @@
+.team4{
+   
+    width: 100%;
+    margin:auto;
+height: 370px;
+
+}
+.totelg{
+    width: 80%;
+    margin:auto;
+    height: 120%;
+}
+
+.team4-contantd1,.team4-contantd2,.team4-contantd3{
+       position: relative;
+        width: 30%;
+        height: 92%;
+        background-color:rgba(0, 0, 0, 0.05);
+        float: left;
+        text-align: center;
+    
+    }
+    .team4-contantd2,.team4-contantd3{
+        margin-left: 50px;
+    }
+.background-imagef{
+background-color: rgba(53, 53, 53, 0.6);
+width: 100%;
+height: 100%;
+
+top: 50%;
+left: 50%;
+transform: translate(0,-100%);
+
+}
+.team4-emg .textr1{
+    text-transform: capitalize;
+}.team4-emg .text2{
+    text-transform:uppercase ;
+}
+
+
+
+.team4-emg{
+  margin: 0;
+padding: 35px 25px;
+text-align: center;
+
+}
+.team4-emg .imgr{
+ 
+    width: 100%;
+    height:220px;
+    margin: 0;
+}.team4-part{
+text-align: center;
+padding-top: 20px;
+
+}
+
+.opacityr{
+    opacity: 0;
+     visibility: hidden;
+     
+     width:280px ;
+    }
+.background-imager{
+   
+    position: absolute; 
+    width: 257px;
+    
+   top: 35px;
+   left: 25px;
+   bottom: 0;
+   right: 0;
+background-color: rgba(37, 37, 37, 0.8);
+ padding: 50px;
+ transition: 0.5s;
+
+}
+     .sde:hover .opacityr{
+        opacity:1;
+        visibility: visible;
+    background-color: rgba(0, 0, 0, 0.5);
+    height:220px;
+    transition: 0.5s;
+    }
+    .team4-emg .fa{
+       
+            color:rgb(250, 250, 250);
+            font-size: 20px;
+            padding-top:10px;
+            
+    }
+
+    .team4-emg ul{
+        list-style: none;
+      
+    }
+.team4-emg .icons1{
+    left: 10%;
+    right: 50%;
+    transform: translate(410%,-45%);
+    background-color: rgb(39, 125, 224);
+    width: 40px;
+    height: 110px;
+    display: block;
+}
+.sde:hover .team4-emg .textr1{
+  
+    color: ghostwhite;
+    transition: 0.7s;
+
+
+}
+.sde:hover .team4-emg .text2{
+    text-transform: uppercase;
+    color: rgb(39, 125, 224);
+    transition: 0.7s;
+
+
+}
+    .sde{
+            width: 100%;
+            float: left;
+        height: 0;
+        transition: 1s;
+        }
+    
+
+   .sde:hover{
+    content: "";
+    background:rgb(0, 0, 0);
+    top:0;
+    left: 0;
+    bottom:0;
+    right:0;
+    transition: 0.6s;
+height: 100%;
+
+   }

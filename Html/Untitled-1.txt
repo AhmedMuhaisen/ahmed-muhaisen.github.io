@@ -1,0 +1,352 @@
+
+<html>
+    <head>
+<meta charset="utf-8">
+<meta name="keywords"content =""/>
+<meta name="description"content =""/>
+        <title>"1..HTML مشروع"</title>
+        <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+        <link rel="stylesheet" href="../Css/font-awesome.min.css">
+        <link rel="stylesheet" href="../Css/Header.Css">
+        <link rel="stylesheet" href="../Css/Home.Css">
+        <link rel="stylesheet" href="../Css/About.Css">
+        <link rel="stylesheet" href="../Css/portfolio.Css">
+        <link rel="stylesheet" href="../Css/services.Css">
+        <link rel="stylesheet" href="../Css/team.Css">
+        <link rel="stylesheet" href="../Css/plog.Css">
+        <link rel="stylesheet" href="../Css/contant.Css">
+        <link rel="stylesheet" href="../Css/Same.Css">
+        <link rel="stylesheet" href="../Css/services2.Css">
+  
+    
+    
+
+   
+    </head>
+    <body>
+           <!-- Header -->
+        <div class="Header">
+            <div class ="conteiner">
+                <div class ="hedercontant">
+                           <div class="logo">
+<img src="../images/images/logo-alt.jpg" alt="Logo image" draggable="false">
+
+    
+       </div> <!-- ./logo-->
+        <ul class="nav">
+        <li ><a href =""draggable="false" class ="actvty">Home</a></li>
+        <li><a href =""draggable="false">About</a></li>
+        <li><a href =""draggable="false">Portfolio</a></li>
+        <li><a href =""draggable="false">Services</a></li>
+        <li><a href =""draggable="false">prices</a></li>
+        <li><a href =""draggable="false">Team</a></li>
+        
+        <li class ="drop"><a href =""draggable="false">Blog</a>
+        <ul class="main-drop">
+            <li><a href =""draggable="false">blog post</a></li>
+        </ul></li>
+        <li><a href =""draggable="false">Contact</a></li>
+    </ul>
+  
+  
+       </div> <!-- ./hedercontant -->
+   </div> <!-- ./conteiner -->
+   </div> <!-- ./Header -->
+      <!--   Home section -->
+    <div class =" Home-section">
+        <div class=" coler-Background"> 
+            
+    <div class="Home-Content"> 
+        
+        <h1 class="begtext-Home">we are creative agency</h1>
+        <p class="smolltext-Home">Lorem ipsum dolor sit amet consectetur adipisicing elit. At amet vel vero! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto!</p>
+        <button class="btn butoon1 haver-opasty">Get Started !</button>
+        <button class="btn butoon2 haver-opasty ">Lern More !</button>
+   
+</div> <!-- ./Home-Content -->
+</div>
+</div><!-- ./Home-section -->
+<!-- About  -->
+<div class="section header-Section conteiner">
+    <div class="padding-y"></div>
+<h2 class ="titel Sction-titel">Welcome To Website</h2>
+<span class="line"></span>
+<div class="bady">
+     <div class="part-bady bady-number1  background-part-bady">
+        <i class="fa fa-cogs" aria-hidden="true"></i>
+        <h3 class="text1">Fuly Customizible</h3>
+        <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt deleniti </p>
+        <a href="" class="a-bady">Read More</a> 
+    </div><!-- ./bady-number1 -->
+    
+    <div class="part-bady bady-number2  background-part-bady">
+        <i class="fa fa-magic" aria-hidden="true"></i>
+        <h3 class="text1">Awesome Features</h3>
+        <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt deleniti </p>
+        <a href="" class="a-bady">Read More</a>
+    
+    </div><!-- ./bady-number2 -->
+  
+    <div class="part-bady bady-number3  background-part-bady">
+        <i class="fa fa-mobile" aria-hidden="true"></i>
+        <h3 class="text1">Fuly Responsive</h3>
+        <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt deleniti </p>
+        <a href="" class="a-bady">Read More</a>  
+    </div><!-- ./bady-number3 -->
+  
+
+</div><!-- ./bady -->
+
+<div class="padding-y"><div class="padding-y"></div>
+
+<div class="padding-y">
+</div></div><!-- ./header-Section -->
+
+<!-- portfolio  -->
+<div class="section portfolio ">
+    <div class="padding-y"></div>
+<h2 class ="titel portfolio-titel">featured works</h2>
+<span class="line"></span>
+<div class="image-portfolio">
+    
+     <div class="div-image image1">
+
+     <img src="../images/images/work/work1.jpg" alt="" class="image"  > 
+    <div class="background-image opacity"></div><!-- ./background-image -->
+   <div class="contant opacity" >
+       <span class="text1">category</span>
+       <h4 class="text2">lorem ipsum dolor</h4>
+      <i> <a href="" class="fa fa-edit"></a></i>
+        <i> <a href="" class="fa fa-search"></a></i>
+
+      </div><!-- ./contant opacity -->
+ </div><!-- ./div-image -->
+     <div class="div-image image2">
+    <img src="../images/images/work/work2.jpg" alt="" class="image"  ><div class="background-image opacity"></div><!-- ./background-image -->
+   <div class="contant opacity" >
+       <span class="text1">category</span>
+       <h4 class="text2">lorem ipsum dolor</h4>
+      <i> <a href="" class="fa fa-edit"></a></i>
+        <i> <a href="" class="fa fa-search"></a></i>
+
+      </div><!-- ./contant opacity -->
+ </div><!-- ./div-image -->
+   
+      <div class="div-image image3">
+    <img src="../images/images/work/work3.jpg" alt="" class="image"  ><div class="background-image opacity"></div><!-- ./background-image -->
+   <div class="contant opacity" >
+       <span class="text1">category</span>
+       <h4 class="text2">lorem ipsum dolor</h4>
+      <i> <a href="" class="fa fa-edit"></a></i>
+        <i> <a href="" class="fa fa-search"></a></i>
+
+      </div><!-- ./contant opacity -->
+ </div><!-- ./div-image -->
+   
+      <div class="div-image image4">
+    <img src="../images/images/work/work4.jpg" alt="" class="image"  ><div class="background-image opacity"></div><!-- ./background-image -->
+   <div class="contant opacity" >
+       <span class="text1">category</span>
+       <h4 class="text2">lorem ipsum dolor</h4>
+      <i> <a href="" class="fa fa-edit"></a></i>
+        <i> <a href="" class="fa fa-search"></a></i>
+
+      </div><!-- ./contant opacity -->
+ </div><!-- ./div-image -->
+   
+      <div class="div-image image5">
+    <img src="../images/images/work/work5.jpg" alt="" class="image"  ><div class="background-image opacity"></div><!-- ./background-image -->
+   <div class="contant opacity" >
+       <span class="text1">category</span>
+       <h4 class="text2">lorem ipsum dolor</h4>
+      <i> <a href="" class="fa fa-edit"></a></i>
+        <i> <a href="" class="fa fa-search"></a></i>
+
+      </div><!-- ./contant opacity -->
+ </div><!-- ./div-image -->
+   
+      <div class="div-image image6">
+    <img src="../images/images/work/work6.jpg" alt="" class="image"  ><div class="background-image opacity"></div><!-- ./background-image -->
+   <div class="contant opacity" >
+       <span class="text1">category</span>
+       <h4 class="text2">lorem ipsum dolor</h4>
+      <i> <a href="" class="fa fa-edit"></a></i>
+        <i> <a href="" class="fa fa-search"></a></i>
+
+      </div><!-- ./contant opacity -->
+ </div><!-- ./div-image -->
+   
+</div><!--./image-portfolio  -->
+<div class="padding-y"></div>
+<div class="padding-y">
+</div><!-- ./portfolio  -->
+</div>
+<!-- services -->
+<div class="padding-y"></div>
+
+<div class="section header-Section services ">
+    
+<h2 class ="titel Sction-titel">what we ofeer</h2>
+<span class="line"></span>
+
+<div class="bady-services">
+
+    <div class ="part part1">
+        <div class=background-image></div>
+           <i class="icon fa fa-diamond" aria-hidden="true"></i>
+          <div class="text-part"> <h4 class="text1">app development  </h4>
+           <p class ="text2">Maecenas tempus tellus eget
+               condimentum rhoncus sem quam
+                 semper libero.</p></div><!-- ./text-part -->
+               
+    </div><!-- ./part part1 -->
+               
+    
+           
+           
+               <div class ="part part2">
+                <div class=background-image></div>
+                   <i class="icon fa fa-rocket" aria-hidden="true"></i>
+                  <div class="text-part"> <h4 class="text1">Graphic Design
+                   </h4>
+                   <p class ="text2">Maecenas tempus tellus eget
+                       condimentum rhoncus sem quam
+                         semper libero.</p></div><!-- ./text-part -->
+               
+    </div><!-- ./part part1 -->
+  
+
+
+               <div class ="part part3">
+                <div class=background-image></div>
+                   <i class="icon fa fa-cogs" aria-hidden="true"></i>
+                  <div class="text-part"> <h4 class="text1"> Creative Idea   </h4>
+                   <p class ="text2">Maecenas tempus tellus eget
+                       condimentum rhoncus sem quam
+                         semper libero.</p></div><!-- ./text-part -->
+               
+    </div><!-- ./part part1 -->
+  
+
+               <div class ="part part4">
+                <div class=background-image></div>
+                   <i class="icon fa fa-diamond" aria-hidden="true"></i>
+                  <div class="text-part"> <h4 class="text1">Marketing
+                    </h4>
+                   <p class ="text2">Maecenas tempus tellus eget
+                       condimentum rhoncus sem quam
+                         semper libero.</p></div><!-- ./text-part -->
+               
+    </div><!-- ./part part1 -->
+  
+
+               <div class ="part part5">
+                <div class=background-image></div>
+                   <i class="icon fa fa-pencil" aria-hidden="true"></i>
+                  <div class="text-part"> <h4 class="text1"> Awesome Support
+                       </h4>
+                   <p class ="text2">Maecenas tempus tellus eget
+                       condimentum rhoncus sem quam
+                         semper libero.</p></div><!-- ./text-part -->
+               
+    </div><!-- ./part part1 -->
+  
+
+               <div class ="part part6">
+                <div class=background-image></div>
+                   <i class="icon fa fa-flask" aria-hidden="true"></i>
+                  <div class="text-part"> <h4 class="text1">Brand Design </h4>
+                   <p class ="text2">Maecenas tempus tellus eget
+                       condimentum rhoncus sem quam
+                         semper libero.</p></div><!-- ./text-part -->
+               
+    </div><!-- ./part part1 -->
+  
+
+
+</div><!--./bady-services  -->
+
+
+<div class="padding-y"></div><div class="padding-y"></div>
+
+</div><!-- ./services -->
+
+
+<!-- services2 -->
+<div class="padding-y"></div>
+
+<div class="  services2  ">
+    <div class="  ">
+        <div class="padding-y"></div>
+<div class ="avereg-titel">
+    <h2 class ="titel Sction-titel">Why Choose Us</h2>
+<span class="line"></span>
+
+<p class="text2"> Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non
+consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.
+Ultrices sagittis orci a scelerisque purus.
+</p>
+<ul class="icon-text">
+    <li>
+    <i class="fa fa-check "></i>
+    <p class ="textr groub">Quis varius quam quisque id diam vel quam elementum.</p>
+</li>
+<li>
+    <i class="fa fa-check "></i>
+    <p class ="textr groub">Lorem ipsum dolor sit amet.</p>
+</li>
+<li>
+    <i class="fa fa-check "></i>
+    <p class ="textr groub">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+</li>
+<li>
+    <i class="fa fa-check "></i>
+    <p class ="textr groub">Lorem ipsum dolor sit amet.lorem2</p>
+</li>
+</ul>
+
+
+</div>
+<div class="pecture">
+<img src="../images/images/about/about1.jpg" alt="">
+<div class="i1 contant2 opacity2"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+<div class="i2 contant2 opacity2"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+<ul class="point">
+    <li class="point-part"></li>
+
+    <li></li>
+
+    <li ></li>
+
+    <li ></li>
+
+    <li ></li>
+
+</ul>
+</div>
+</div>
+<div class="bady-services">
+
+    
+
+
+</div><!--./bady-services  -->
+
+
+
+<div class="padding-y"></div><div class="padding-y"></div>
+</div><!-- ./services -->
+<div class="padding-y"></div>
+
+    <div class="team-img  "></div>
+<div class= "background-imgs"></div>
+        <div>
+            <i class="fa fa-angle-user" aria-hidden="true"></i>
+<p></p>
+        </div>
+
+</div>
+<div class="padding-y"></div> <div class="padding-y"></div>
+</body>
+</html> 

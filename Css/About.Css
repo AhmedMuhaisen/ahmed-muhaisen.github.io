@@ -1,0 +1,80 @@
+
+.part-bady .text1{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0.8em;
+    margin-block-end: 1em;
+color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    transition: color 0.5s;
+}
+.About {
+    height: 100%;
+}
+
+ .background-part-bady{
+     position: relative;
+ }
+ .background-part-bady .part-bady .text1:after{
+color: rgb(255, 255, 255);
+
+ }
+ .background-part-bady:after{
+position: absolute;
+content: "";
+background:rgb(42, 42, 42);
+width: 0;
+top:0;
+left: 0;
+bottom:0;
+right:0;
+transition: 0.5s;
+z-index: -1;
+ color: rgb(251, 249, 249);
+ }
+ .background-part-bady:hover:after{
+width: 100%;
+
+}
+.part-bady:hover .text1{
+    color:#fff;
+    transition: 0.5s;
+}.part-bady:hover .text2{
+    color:rgb(151, 129, 129);
+    transition: 0.5s;
+}
+ 
+
+.part-bady{
+   
+    border:0.4px solid #f1f1f1;
+    width:30% ;
+    float:left ;
+  text-align: center;
+margin: 16px;
+height: 230px;
+}
+
+.bady{
+margin: auto;
+}
+
+.a-bady{
+    color:dodgerblue;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+ .bady .line{
+display: block;
+height: 100%;
+width:100%;
+background-color: rgb(145, 147, 149);
+}
+.bady .line .n:after{
+    height: 100%;
+width:100%;
+
+} 
+
